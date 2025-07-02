@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
+import "./CreateRoom.scss"
 
 const socket = require('../../utils/socket');
 const Modal = require('../../ui/Modal') ; 
